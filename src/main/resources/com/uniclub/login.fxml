@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uniclub.LoginController">
+   <children>
+      <Label layoutX="350.0" layoutY="80.0" text="Login">
+         <font>
+            <Font size="21.0"/>
+         </font>
+      </Label>
+      <TextField fx:id="tf_username" layoutX="350.0" layoutY="140.0" prefHeight="25.0" promptText="Username" />
+      <PasswordField fx:id="tf_password" layoutX="350.0" layoutY="180.0" prefHeight="25.0" prefWidth="150.0" promptText="Password" />
+      <Button fx:id="btn_login" layoutX="350.0" layoutY="230.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Login" />
+      <Button fx:id="btn_sign_up" layoutX="456.0" layoutY="346.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: transparent;" text="Sign Up" textFill="#321cfc" underline="true" />
+      <Label layoutX="350.0" layoutY="350.0" text="Do you have account?" />
+      <ImageView fitHeight="425.0" fitWidth="610.0" layoutX="-310.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/alatoo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
