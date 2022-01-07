@@ -15,17 +15,17 @@ import java.util.Objects;
 public class DBUtils {
     private static final String DataBaseUrl = "jdbc:postgresql://localhost:5432/javaFX";
     private static final String DataBaseUser = "postgres";
-    private static final String DataBasePassword = "123456";
+    private static final String DataBasePassword = "erkin187272";
 
-    public static void changeScene(ActionEvent event, String fxmlFile, String title, String username) {
+    public static void changeScene(ActionEvent event, String fxmlFile, String title, String username, int windowHeight, int windowWidth) {
         Parent root = null;
 
         if (username != null) {
             try {
                 FXMLLoader loader = new FXMLLoader(DBUtils.class.getResource(fxmlFile));
                 root = loader.load();
-                LoggedController loggedController = loader.getController();
-                loggedController.setUserInformation(username);
+                ClubController clubController = loader.getController();
+                clubController.setUserInformation(username);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -38,7 +38,7 @@ public class DBUtils {
         }
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle(title);
-        stage.setScene(new Scene(root, 600, 400));
+        stage.setScene(new Scene(root, windowWidth, windowHeight));
         stage.show();
     }
 
@@ -69,7 +69,7 @@ public class DBUtils {
                 psInsert.setString(6, info);
                 psInsert.executeUpdate();
 
-                changeScene(event, "logged.fxml", "logged", username);
+                changeScene(event, "club.fxml", "logged", username, 700, 1300);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -125,7 +125,7 @@ public class DBUtils {
                     String retrievedPassword = resultSet.getString("password");
 
                     if (retrievedPassword.equals(password)) {
-                        changeScene(event, "logged.fxml", "logged", username);
+                        changeScene(event, "club.fxml", "Welcome", username, 700, 1300);
                     } else {
                         System.out.println("Password did not match");
                         Alert alert = new Alert(Alert.AlertType.ERROR);

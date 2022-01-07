@@ -23,7 +23,7 @@
       <Label layoutX="350.0" layoutY="350.0" text="Do you have account?" />
       <ImageView fitHeight="425.0" fitWidth="610.0" layoutX="-310.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/alatoo.jpg" />
+            <Image url="@../../img/alatooLogin.jpg" />
          </image>
       </ImageView>
    </children>

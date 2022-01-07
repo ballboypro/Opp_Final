@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uniclub.ClubController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="670" prefWidth="1800">
+         <children>
+            <VBox layoutX="24.0" layoutY="277.0" prefHeight="378.0" prefWidth="337.0" style="-fx-background-color: white;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="70.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="174.0" text="Android Club">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="240.0">
+                     <children>
+                        <ImageView fitHeight="114.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/android.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="38.0" prefHeight="42.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="58.0" text="Info:">
+                           <font>
+                              <Font name="Cambria" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="27.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Schedule: Monday from 16.00">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="28.0" prefWidth="334.0" text="• Achievements: 1st place in the Competiition">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Supervisor: Tilek Sydykov">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="290.0" text="• Contacnt number: +996772454666">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="338.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Send request" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox layoutY="86.0" prefHeight="134.0" prefWidth="240.0">
+               <children>
+                  <Label prefHeight="32.0" prefWidth="129.0" text="University" textFill="#878787">
+                     <font>
+                        <Font name="Cambria Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="10.0" prefHeight="32.0" prefWidth="75.0" text="Clubs" textFill="#878787">
+                     <font>
+                        <Font name="Cambria Bold" size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox layoutX="381.0" layoutY="277.0" prefHeight="378.0" prefWidth="337.0" style="-fx-background-color: white;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="70.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="174.0" text="Football Club">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="240.0">
+                     <children>
+                        <ImageView fitHeight="114.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/football.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="38.0" prefHeight="42.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="58.0" text="Info:">
+                           <font>
+                              <Font name="Cambria" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="27.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Schedule: Saturday from 16.00">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="28.0" prefWidth="334.0" text="• Achievements: 3st place in the Competiition">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Supervisor: Zamir agai">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="290.0" text="• Contacnt number: +996990343348">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="338.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Send request" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox layoutX="741.0" layoutY="277.0" prefHeight="378.0" prefWidth="337.0" style="-fx-background-color: white;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="70.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="174.0" text="Japan Club">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="240.0">
+                     <children>
+                        <ImageView fitHeight="114.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/japan.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="38.0" prefHeight="42.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="58.0" text="Info:">
+                           <font>
+                              <Font name="Cambria" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="27.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="299.0" text="• Schedule: Wednesday from 16.00">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Supervisor: Schebelowski">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="290.0" text="• Contacnt number: +996778343439">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="338.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Send request" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox layoutX="1099.0" layoutY="277.0" prefHeight="378.0" prefWidth="337.0" style="-fx-background-color: white;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="70.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="174.0" text="Volleyball Club">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="240.0">
+                     <children>
+                        <ImageView fitHeight="114.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/volleyball.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="38.0" prefHeight="42.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="58.0" text="Info:">
+                           <font>
+                              <Font name="Cambria" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="27.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="299.0" text="• Schedule: Sunday from 11.00">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="28.0" prefWidth="334.0" text="• Achievements: 2st place in the Competiition">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Supervisor: Azat agai">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="290.0" text="• Contacnt number: +996778343439">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="338.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Send request" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox layoutX="1454.0" layoutY="277.0" prefHeight="378.0" prefWidth="337.0" style="-fx-background-color: white;">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="70.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="174.0" text="Robot Club">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="240.0">
+                     <children>
+                        <ImageView fitHeight="114.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../img/robot.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="38.0" prefHeight="42.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="58.0" text="Info:">
+                           <font>
+                              <Font name="Cambria" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="27.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="299.0" text="• Schedule: Sunday from 11.00">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="28.0" prefWidth="334.0" text="• Achievements: 1st place in the Competiition">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="31.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="238.0" text="• Supervisor: Ruslan agai">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="29.0" prefWidth="240.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="290.0" text="• Contacnt number: +996505686865">
+                           <font>
+                              <Font name="Cambria" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="338.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Send request" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox layoutX="282.0" layoutY="30.0" prefHeight="119.0" prefWidth="130.0">
+               <children>
+                  <ImageView fitHeight="119.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../img/alatoo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox layoutX="428.0" layoutY="32.0" prefHeight="56.0" prefWidth="130.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="55.0" prefWidth="145.0" text="Welcome!" textFill="#746d6d">
+                           <font>
+                              <Font name="Cambria Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox layoutX="429.0" layoutY="77.0" prefHeight="56.0" prefWidth="229.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="55.0" prefWidth="191.0" text="Choose your club here!" textFill="#746d6d">
+                           <font>
+                              <Font name="Cambria" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox layoutX="529.0" layoutY="192.0" prefHeight="56.0" prefWidth="229.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="55.0" prefWidth="200.0" text="Join Us!" textFill="#746d6d">
+                           <font>
+                              <Font name="Cambria" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Label fx:id="label_username" layoutX="544.0" layoutY="33.0" prefHeight="55.0" prefWidth="145.0" text="Username" textFill="#746d6d">
+               <font>
+                  <Font name="Cambria Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_logout" layoutX="658.0" layoutY="37.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Log out" textFill="#0b45f2" underline="true">
+               <font>
+                  <Font name="Cambria Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
