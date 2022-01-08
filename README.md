@@ -20,7 +20,8 @@ https://drive.google.com/folderview?id=1zQn0818V_G2A7DVWQbkPRDO4BvJQBCNg
 </br>
 Screenshots of main page:
 </br>
-<p align="center">
-  <img src="./img.png" width="350" title="hover text">
-  <img src="./img2.png" width="350" alt="accessibility text">
+<p>
+  <img src="./img.png" title="hover text">
+  </br>
+  <img src="./img2.png" alt="accessibility text">
 </p>
