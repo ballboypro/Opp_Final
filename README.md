@@ -22,6 +22,4 @@ Screenshots of main page:
 </br>
 ![img](https://user-images.githubusercontent.com/49130964/148641288-56ba099a-0e8e-4a3e-ace8-06b94019a825.png)
 ![img2](https://user-images.githubusercontent.com/49130964/148641295-098adffd-08a1-43b2-bb50-9f6f78308096.png)
-![ScreenShot](https://raw.githubusercontent.com/ballboypro/Opp_Final/main/49130964/img.png)
 
-![ScreenShot](https://raw.githubusercontent.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg)
