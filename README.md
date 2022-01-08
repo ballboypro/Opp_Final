@@ -20,6 +20,6 @@ https://drive.google.com/folderview?id=1zQn0818V_G2A7DVWQbkPRDO4BvJQBCNg
 </br>
 Screenshots of main page:
 </br>
-![img](https://user-images.githubusercontent.com/49130964/148641288-56ba099a-0e8e-4a3e-ace8-06b94019a825.png)
-![img2](https://user-images.githubusercontent.com/49130964/148641295-098adffd-08a1-43b2-bb50-9f6f78308096.png)
+![Screenshot](img.png)
+![Screenshot](img2.png)
 
