@@ -20,7 +20,7 @@ https://drive.google.com/folderview?id=1zQn0818V_G2A7DVWQbkPRDO4BvJQBCNg
 </br>
 Screenshots of main page:
 </br>
-![alt text](https://github.com/ballboypro/Opp_Final/blob/main/img.png?raw=true)
+![img](https://github.com/ballboypro/Opp_Final/blob/main/img.png?raw=true)
 </br>
-![alt text](https://github.com/ballboypro/Opp_Final/blob/main/img2.png?raw=true)
+![img](https://github.com/ballboypro/Opp_Final/blob/main/img2.png?raw=true)
 
